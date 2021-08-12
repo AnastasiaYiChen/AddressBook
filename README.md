@@ -46,28 +46,27 @@ Used solution below but doesn't works for me, may works for you.
 
 
 
-Clearing the cache
-To clear a cache in npm, we need to run the npm cache clean --force command in our terminal.
+1. Clearing the cache
 
-clean: It deletes the all data from your cache folder.
+1.1 To clear a cache in npm, we need to run the npm cache clean --force command in our terminal.
 
-npm cache clean --force
+1.2 clean: It deletes the all data from your cache folder.
 
-npm cache verify
+2. npm cache verify
 
-delete all file under C:\Users\UserName\AppData\Roaming\npm-cache
+3. delete all file under C:\Users\UserName\AppData\Roaming\npm-cache
 
-delete node.js
+4. delete node.js
 
-reinstall the latest version 16.6.2  for x64
+5. reinstall the latest version 16.6.2  for x64
 
-npm install -g @angular/cli
+6. npm install -g @angular/cli
 
-ng new project
+7. ng new project
 
-num install
+8. num install
 
-npm i angularfire2
+9. npm i angularfire2
 
 
 
