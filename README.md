@@ -29,3 +29,35 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Process Image
 
 ![UI](https://github.com/AnastasiaYiChen/AddressBook/blob/main/src/assets/images/ui.PNG)
+
+## Bug arise 
+
+npm ERR! code ERR_SSL_DECRYPTION_FAILED_OR_BAD_RECORD_MAC
+npm ERR! 19256:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+npm ERR!
+
+---------------------------------------------------------------------------------
+-  when run “ npm i angularfire2  ” 
+---------------------------------------------------------------------------------
+
+Used solution below but doesn't works for me
+
+Clearing the cache
+To clear a cache in npm, we need to run the npm cache clean --force command in our terminal.
+
+clean: It deletes the all data from your cache folder.
+npm cache clean --force
+npm cache verify
+delete all file under C:\Users\UserName\AppData\Roaming\npm-cache
+delete node.js
+reinstall the latest version 16.6.2  for x64
+
+npm install -g @angular/cli
+ng new project
+num install
+npm i angularfire2
+
+
+
+
+Click to find out more about a new promotion
