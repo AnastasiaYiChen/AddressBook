@@ -40,21 +40,29 @@ npm ERR!
 -  when run “ npm i angularfire2  ” 
 ---------------------------------------------------------------------------------
 
-Used solution below but doesn't works for me
+Used solution below but doesn't works for me, may works for you.
 
 Clearing the cache
 To clear a cache in npm, we need to run the npm cache clean --force command in our terminal.
 
 clean: It deletes the all data from your cache folder.
+
 npm cache clean --force
+
 npm cache verify
+
 delete all file under C:\Users\UserName\AppData\Roaming\npm-cache
+
 delete node.js
+
 reinstall the latest version 16.6.2  for x64
 
 npm install -g @angular/cli
+
 ng new project
+
 num install
+
 npm i angularfire2
 
 
