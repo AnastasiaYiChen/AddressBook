@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  background-size:cover ;
+  background-image: url('src/assets/images/YI_Chen_light_and_texture_study_v001.jpeg');
+  line-height: 50px;
+  justify-content:center;
+}
+
