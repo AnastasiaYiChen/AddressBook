@@ -32,13 +32,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Bug arise 
 
+-Install issue
+
 npm ERR! code ERR_SSL_DECRYPTION_FAILED_OR_BAD_RECORD_MAC
 npm ERR! 19256:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
 npm ERR!
 
----------------------------------------------------------------------------------
--  when run “ npm i angularfire2  ” 
----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+-  when run " npm i angularfire2 " "npm i" "npm i firebase" "npm install -g @angular/cli"
+--------------------------------------------------------------------------------------------
 
 Used solution below but doesn't works for me, may works for you.
 
