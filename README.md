@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Process Image
 
-(https://github.com/AnastasiaYiChen/AddressBook/blob/main/src/assets/images/ui.PNG)
+![UI](https://github.com/AnastasiaYiChen/AddressBook/blob/main/src/assets/images/ui.PNG)
